@@ -2,7 +2,7 @@
 i used a white on black color schemed with the non neutral color of light peach to make it look more like a gaming website
  */
 */
-/* ========== GLOBAL STYLING ========== */
+/*  GLOBAL STYLING  */
 /* Resets margin, padding and box model for all elements */
 * {
     margin: 0; /* Reset margin */
@@ -13,7 +13,7 @@ i used a white on black color schemed with the non neutral color of light peach 
         font-family: "myFont"; /* Define a custom font */
         src: url(Sakana.ttf); /* Path to the font file */
         }
-/* ========== BODY STYLING ========== */
+/*  BODY STYLING  */
 
 body {
     font-family: "myFont", sans-serif; /* Custom font for the entire page */
@@ -25,7 +25,7 @@ body {
     overflow-x: hidden; /* Prevents side scrolling on small screens */
 }
 
-/* ========== NAVIGATION BAR STYLING ========== */
+/*  NAVIGATION BAR STYLING  */
 
 /* Nav bar styling that makes white fill on hover and creates a nav bar with 2 dropdown menus */
 nav {
@@ -108,7 +108,7 @@ nav {
     transform-origin: left; /* Animate from left to right */
 }
 
-/* ========== DROPDOWN MENU STYLING ========== */
+/* DROPDOWN MENU STYLING */
 
 /* Hides dropdowns by default */
 .dropdown-menu {
@@ -148,7 +148,7 @@ nav {
     width: auto; /* Maintain aspect ratio */
 }
 
-/* ========== REPEATED NAV-LINKS STYLING (Still Valid) ========== */
+/* REPEATED NAV-LINKS STYLING  */
 
 .nav-links {
     list-style: none;
@@ -175,7 +175,7 @@ nav {
     background-color: #222; /* Slightly lighter hover bg */
 }
 
-/* ========== DROPDOWN SCROLLBAR & STYLING ========== */
+/*  DROPDOWN SCROLLBAR & STYLING  */
 
 /* all dropdown menu code was gotten from this youtube tutorial: https://www.youtube.com/watch?v=rgUp302f_lY&t=12s&ab_channel=DaniKrossing */
 .dropdown-menu {
